@@ -64,7 +64,7 @@ Also inspired from https://www.npmjs.com/package/react-hexgrid.
 
 ##### Math methods
 | Method |
-| --- | --- |
+| --- |
 | hexToScreenPosition(hex: Hex, orientation: Orientation, origin: Point, size: number, spacing: number, cubic = false): Point;
 | interpolateHexes(a: Hex, b: Hex, t: number): Hex;
 | distanceBetweenHexes(begin: Hex, end: Hex): number;
