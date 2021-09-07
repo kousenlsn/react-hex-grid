@@ -1,8 +1,8 @@
 {
-  "name": "react-hex-grid",
-  "description": "Generate Hex grids with SVG",
+  "name": "@kousenlsn/react-hex-grid",
+  "description": "Generate Hex grids with SVG + more utils | react@17.0.2",
   "author": "kousenlsn",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/index.js",

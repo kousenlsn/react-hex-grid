@@ -3,6 +3,7 @@
 *Generate Hex grids with SVG*
 
 Yet another implementation of https://www.redblobgames.com/grids/hexagons/.
+
 Also inspired from https://www.npmjs.com/package/react-hexgrid.
 
 ### Features :mag_right:
@@ -32,6 +33,8 @@ Also inspired from https://www.npmjs.com/package/react-hexgrid.
 |  height: number \| string,       | height of the SVG
 |  viewBox: string                 | SVG base viewbox
 
+
+
 ##### Hexagon props
 | Prop | Description |
 | --- | --- |
@@ -42,17 +45,23 @@ Also inspired from https://www.npmjs.com/package/react-hexgrid.
 | className?: string;              | class-name delegated
 | onMouseEnter...?: HexEvent;      | Events over hexagons. (all basic events covered)
 
+
+
 ##### Path props
 | Prop | Description |
 | --- | --- |
 | start: Hex                       | Hexagon used to calculate the initial point of the path
 | end: Hex;                        | Hexagon used to calculate the final point of the path
 
+
+
 ##### HexPattern props
 | Prop | Description |
 | --- | --- |
 | id: string                       | unique id for each ``<pattern>``
 | url: string                      | url / base64 data
+
+
 
 ##### Generation methods
 | Method | Description |
@@ -61,6 +70,8 @@ Also inspired from https://www.npmjs.com/package/react-hexgrid.
 | rectangle(mapWidth: number, mapHeight: number, cubic = false, zeroAsCentralPoint = false)     | //
 | parallelogram(q1: number, q2: number, r1: number, r2: number, cubic)                          | //
 | hexagon(mapRadius: number, cubic = false)                                                     | //
+
+
 
 ##### Math methods
 | Method |
